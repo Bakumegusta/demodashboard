@@ -1,0 +1,24 @@
+#popup{
+    position: fixed;
+    top: 15%;
+    left: 35%;
+    z-index: 999;
+    width: 50%;
+    background: #486dda;
+    height: 400px;
+    border-radius: 20px;
+}
+#popup form{
+    padding: 30px;
+    margin-top: 30px;
+}
+.closebtn{
+    position: absolute;
+    color: #fff;
+    right: 30px;
+    font-size: 25px;
+    top: 20px;
+}
+.closebtn:hover{
+  cursor: pointer;
+}

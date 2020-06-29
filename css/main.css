@@ -1,4 +1,6 @@
 
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
 :root {
   --blue: #4e73df;
   --indigo: #6610f2;
@@ -217,6 +219,7 @@ th {
 }
 
 label {
+  color:#fff;
   display: inline-block;
   margin-bottom: 0.5rem;
 }
@@ -10984,4 +10987,65 @@ footer.sticky-footer .copyright {
 
 body.sidebar-toggled footer.sticky-footer {
   width: 100%;
+}
+
+
+
+/* button css */
+
+.snip1372 {
+  font-family: 'Raleway', Arial, sans-serif;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  cursor: pointer;
+  padding: 0px 68px 0px 20px;
+  text-align: center;
+  display: inline-block;
+  margin: 12px 25px;
+  font-weight: 300;
+  outline: none;
+  position: relative;
+  font-size: 16px;
+  line-height: 50px;
+  background-image: -webkit-linear-gradient(bottom, #262626 0, #333333 100%);
+  background-image: linear-gradient(to top, #262626 0, #333333 100%);
+  box-shadow: 1px 1px 2px -2px rgba(255, 255, 255, 0.8) inset, -1px -1px 2px -2px rgba(255, 255, 255, 0.3) inset, 1px 1px 4px rgba(0, 0, 0, 0.3);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+.snip1372 i {
+  font-size: 1.5em;
+  width: 55px;
+  line-height: 50px;
+  position: absolute;
+  right: 0;
+}
+.snip1372:before,
+.snip1372:after {
+  content: "";
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  width: 44px;
+  bottom: 6px;
+  border-radius: 5px 5px;
+}
+.snip1372:after {
+  background-color: rgba(255, 255, 255, 0.075);
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4) inset, 1px 1px 2px -2px rgba(255, 255, 255, 0.3);
+}
+.snip1372:before {
+  opacity: 0;
+  background-color: #81eed8;
+  mix-blend-mode: color;
+  -webkit-transition: all 0.35s;
+  transition: all 0.35s;
+}
+.snip1372:hover,
+.snip1372.hover {
+  color: #ffffff;
+}
+.snip1372:hover:before,
+.snip1372.hover:before {
+  opacity: 1;
 }
